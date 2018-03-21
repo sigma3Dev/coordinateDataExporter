@@ -1,0 +1,22 @@
+{
+  "name": "coordinate-data-exporter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigma3Dev/coordinateDataExporter.git"
+  },
+  "author": "Tim Woerner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sigma3Dev/coordinateDataExporter/issues"
+  },
+  "homepage": "https://github.com/sigma3Dev/coordinateDataExporter#readme",
+  "dependencies": {
+    "file-saver": "^1.3.4"
+  }
+}
