@@ -1,5 +1,7 @@
 "use strict";
 
+var FileSaver = require('file-saver');
+
 module.exports = {
   downloadCoordinatesFile: function(coords) {
     var coordsAsText = "";
@@ -12,6 +14,6 @@ module.exports = {
     });
 
     var blob = new Blob([coordsAsText], {type: "text/plain;charset=utf-8"});
-    saveAs(blob, "trafo_coordinates.txt");
+    FileSaver.saveAs(blob, "trafo_coordinates.txt");
   }
 }
