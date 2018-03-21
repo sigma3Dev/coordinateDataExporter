@@ -1,8 +1,9 @@
 "use strict";
 
+import { saveAs } from 'file-saver';
+
 module.exports = {
   downloadCoordinatesFile: function(coords) {
-    import { saveAs } from 'file-saver';
     var coordsAsText = "";
     coords.map(function(coord, i) {
       if (i < coords.length - 1) {
